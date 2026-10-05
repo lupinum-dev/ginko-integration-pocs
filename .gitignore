@@ -1,0 +1,8 @@
+node_modules/
+dist/
+evidence/
+.ginko/
+
+editor-render/src/stored.json
+editor-render/public/
+editor-render/test-results/

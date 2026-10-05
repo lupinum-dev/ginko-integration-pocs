@@ -1,0 +1,15 @@
+{
+  "name": "cms-roundtrip",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "pnpm probe && vitest run",
+    "build": "tsc --noEmit",
+    "probe": "tsx scripts/probe-known-failures.ts",
+    "roundtrip": "tsx scripts/run.ts"
+  },
+  "dependencies": {
+    "@lupinum/ginko-content": "file:../vendor/lupinum-ginko-content-1.0.0-beta.10-a3e8ef1.tgz",
+    "vue": "^3.5.40"
+  }
+}

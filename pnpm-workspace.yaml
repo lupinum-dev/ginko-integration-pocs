@@ -1,0 +1,7 @@
+packages:
+  - cms-roundtrip
+  - editor-render
+autoInstallPeers: false
+
+allowBuilds:
+  esbuild: true
