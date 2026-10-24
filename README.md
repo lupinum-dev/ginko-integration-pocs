@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> **This repository is retired.** These proofs of concept use the old `@lupinum/ginko-content` 1.0.0-beta line, which gets no more fixes. Current Ginko is in [lupinum-dev/ginko](https://github.com/lupinum-dev/ginko). This repository will be archived.
+
 # Ginko standalone integration POCs
 
 Two small packed-package consumers. The main deliverable is [FRICTION.md](FRICTION.md), including observed library failures and comparisons with the real CMS, Editor and Write integrations. No Nuxt app or service runs here.
